@@ -1,6 +1,7 @@
-# My mini Netflix replica to learn ReactJS.
+# Mini Netflix, Miniflix untuk latihan ReactJS.
 
 Problem checklist:  
-- [ ] After importing Cloudinary package or CDN link to index.html in order to call the Cloudinary upload widfet, it doesn't show anything on screen. But if I remove it, everything is shown up except the widget won't run.
+- [x] Setelah meng`import` Cloudinary npm package ke file `Upload.js` atau menambahkan link CDN nya ke header `index.html`, layar tidak muncul apa2, hanya putih saja.
+- [ ] Widget Cloudinary bisa di add dan tampilan muncul sempurna di layar, tapi muncul lagi error: `TypeError: __WEBPACK_IMPORTED_MODULE_3_cloudinary___default.a.openUploadWidget is not a function`
 
-> Don't forget to `npm install` before `npm start` it.
+> Jangan lupa di `npm install` sebelum di `npm start`.
